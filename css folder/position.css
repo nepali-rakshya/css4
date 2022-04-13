@@ -1,0 +1,76 @@
+/* **********************POSITION**************************** 
+
+1.    position: static
+
+-------its by default value of the position in the css.
+-------when two paragraphs are written then it simply just show in 
+the next line in the browser.
+
+
+2. position: relative
+
+-------relative position, simply moves the element into different 
+position in relative to its normal positon. 
+-------it can be moved into top, right, bottom or left position 
+relative to its normal position.
+
+
+3. position: absolute
+
+-------in case of absolute, the element will move into different position
+in relative to its ancestor position. 
+-------if it has an ancestor then it moves in respect to its ancestor.
+
+
+4. position: fixed (mostly used in the navigation buttons)
+
+-------in case of fixed, the property helps to fix an element into 
+a fixed position so that even if you scroll it doesn't move an inch.
+-------you also need to specify the position i.e., top right bottom or 
+left to see the existence of the element in your browser.
+
+*/
+
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  /* position: relative; for taking it as an example for absolute position */
+  /* overflow: hidden; */
+}
+
+/* for position relative */
+
+.one {
+  background: blue;
+  /* position: relative;
+  top: 30px;
+  right: 30px;
+  left: 50px;
+  bottom: 30px; */
+}
+
+.two {
+  background: green;
+}
+
+/* for position absolute */
+
+.special {
+  background: lightcoral;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+/* for position fixed */
+
+button {
+  background: red;
+  font-size: 40px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
