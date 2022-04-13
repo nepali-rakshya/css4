@@ -1,0 +1,43 @@
+/* --------------------------GRADIENT-------------------------
+
+default direction === top to bottom
+
+if the direction is "to top" 
+-------- it means "start from bottom to the top"
+
+if the direction is "to top right/left" 
+-------- it means "start from bottom to the top right/left"
+
+OR
+
+if the direction is "to top right/left"
+-------- it means "start from bottom and end it to top right/left"
+
+*/
+
+body {
+  /* display: flex; */
+  background: linear-gradient(white, skyblue, pink);
+}
+
+div {
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+}
+
+.one {
+  background: linear-gradient(pink, brown);
+}
+
+.two {
+  background: linear-gradient(white, skyblue, pink);
+}
+
+.three {
+  background: linear-gradient(to top, crimson, rgb(206, 167, 40));
+}
+
+.four {
+  background: linear-gradient(rgb(160, 230, 218), yellow, rgb(18, 141, 18));
+}
