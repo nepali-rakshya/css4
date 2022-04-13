@@ -1,0 +1,45 @@
+/* -------------------F L O A T-------------------------------
+
+
+
+
+
+
+
+----------------Clear property------------------------------
+
+- clear property is used when float is used.
+- clear property decides what is to be done with the element
+that is next to the element of float.
+
+
+
+----------------Overflow property---------------------------
+
+- overflow property is used when the content overflows the 
+existing element.
+- it can be used in any where the content on an element goes 
+over.
+- it can only be used with block elements.
+
+*/
+
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  /* overflow: hidden; */
+}
+
+/* .two {
+    float: left;
+    height: 600px;
+} */
+
+/* p {
+    clear: left;
+} */
+
+.one {
+  float: right;
+  margin-left: 50px;
+}
