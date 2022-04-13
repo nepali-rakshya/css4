@@ -4,7 +4,7 @@ and we will be writing shortcut of background beacuse its hectic to be typing al
 
 WOW THERE IS A SYNTAX FOR ------Background image------
 
-background: url(for linear-gradient), url(for image) position/size attachment repeat;
+background: linear-gradient(for linear-gradient), url(for image) position/size attachment repeat;
 
 ********************** C S S  GRADIENT GENERATOR ************
 COLORZILLA.COM
