@@ -1,3 +1,18 @@
+/* ------Its the topic of how we can use Linear Gradient on bg images-----
+
+and we will be writing shortcut of background beacuse its hectic to be typing all the properties all over again
+
+WOW THERE IS A SYNTAX FOR ------Background image------
+
+background: url(for linear-gradient), url(for image) position/size attachment repeat;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div {
   min-height: 100vh;
   display: flex;
@@ -9,5 +24,14 @@ div {
 }
 
 .banner {
-  background: url();
+  background: url(./images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(to top, rgba(21, 35, 54, 0.7), rgba(0, 0, 0, 0.5)),
+    url(./images/3.jpg) center/cover no-repeat fixed;
 }
