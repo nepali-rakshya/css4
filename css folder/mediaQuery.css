@@ -7,4 +7,38 @@ max-width: --- up to
 
 
 -------------------------------Mobile First-----------------------------
+--------- Now, what happens in this is that you can put up a definite 
+width from where the changes can take place 
+--------- Donot mess up the format, cuz if you do that then changes won't 
+show up into the browser. 
+--------- The properties which you have already written won't be erased 
+once you write in the @media, it's still gonna be present there.
 */
+
+body {
+  background: yellow;
+}
+
+.banner {
+  background: blue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 100px) {
+  body {
+    background: red;
+  }
+  .banner {
+    background: yellow;
+  }
+  /* h1 {
+    color: black;
+    font-size: 60px;
+  } */
+}
