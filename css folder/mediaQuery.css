@@ -13,6 +13,13 @@ width from where the changes can take place
 show up into the browser. 
 --------- The properties which you have already written won't be erased 
 once you write in the @media, it's still gonna be present there.
+
+SYNTAX: @media screen and (min-width/max-width: ){
+
+}
+
+
+
 */
 
 body {
