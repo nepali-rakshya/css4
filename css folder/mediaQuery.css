@@ -11,18 +11,25 @@ max-width: --- up to
 width from where the changes can take place 
 --------- Donot mess up the format, cuz if you do that then changes won't 
 show up into the browser. 
---------- The properties which you have already written won't be erased 
-once you write in the @media, it's still gonna be present there.
+--------- Suppose you have written border-radius in one of the media query
+but you unknowingly overwrote it with the other media query which didn't 
+include border-radius, but despite of one meida query overwriting the 
+other it won't overwrite border-radius, why? 
+
+Because you hadn't written border-radius on the other media query so what 
+would it overwrite? LOL !
 
 SYNTAX: @media screen and (min-width/max-width: ){
 
 }
 
 
+
+
 */
 
 body {
-  background: yellow;
+  background: red;
 }
 
 .banner {
@@ -34,24 +41,43 @@ h1 {
   text-align: center;
   text-decoration: underline;
   text-transform: capitalize;
+  border: 2px solid black;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 100px) {
   body {
-    background: red;
+    background: blue;
   }
   .banner {
     background: yellow;
   }
-  /* h1 {
+  h1 {
     color: black;
     font-size: 60px;
-  } */
+  }
 }
 
-@media only screen and (max-width: 200px) {
+@media only screen and (min-width: 500px) {
+  body {
+    background: green;
+  }
   h1 {
     text-transform: uppercase;
     color: red;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    background: orange;
+  }
+  h1 {
+    border-radius: 6px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    background: pink;
   }
 }
