@@ -1,0 +1,44 @@
+/* 
+THINGS TO REMEBER ABOUT POSITION
+
+1. ------- In case of relative position, top=100% value means moving 
+100% away from top/original position. 
+
+2. ------- In case of relative position, its normal position is 
+the position from where its movement starts.
+
+3. ------- Now, here comes the twist. In case of absolute position, 0px 
+or 0% means to get to the least position or to the margin relative to 
+the its anscestor.
+
+4. ------- You can make the "in relative to" thing as you wish by adding 
+"position : relative" property to any of its the ancestral element and 
+absolute would obey it and move accordingly.
+
+5. ------- The 0 in relative means its original position, whereas, 0 in case
+of absolute means the starting point of the ancestral element.
+
+*/
+
+.container {
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 20px auto;
+  position: relative;
+}
+
+.item1 {
+  height: 150px;
+  width: 150px;
+  background: pink;
+  position: absolute;
+  top: 0px;
+}
+
+.item2 {
+  height: 150px;
+  width: 150px;
+  background: crimson;
+  position: relative;
+}
