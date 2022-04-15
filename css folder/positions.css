@@ -1,4 +1,12 @@
 /* 
+
+
+
+https://www.youtube.com/watch?v=gD3G67oPg-w&ab_channel=DevEd
+
+
+
+
 THINGS TO REMEBER ABOUT POSITION
 
 1. ------- In case of relative position, top=100% value means moving 
@@ -33,7 +41,7 @@ of absolute means the starting point of the ancestral element.
   width: 150px;
   background: pink;
   position: absolute;
-  top: 0px;
+  top: 10px;
 }
 
 .item2 {
