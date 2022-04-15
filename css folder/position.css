@@ -13,6 +13,8 @@ the next line in the browser.
 position in relative to its normal positon. 
 -------it can be moved into top, right, bottom or left position 
 relative to its normal position.
+-------here normal position means (the actual position of the element
+but not from the margin or border of the browser.)
 
 
 3. position: absolute
