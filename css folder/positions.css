@@ -41,6 +41,7 @@ of absolute means the starting point of the ancestral element.
   width: 150px;
   background: pink;
   position: absolute;
+  right: 0px;
   top: 0px;
 }
 
@@ -48,6 +49,6 @@ of absolute means the starting point of the ancestral element.
   height: 150px;
   width: 150px;
   background: crimson;
-  position: relative;
-  top: 30px;
+  /* position: absolute; */
+  /* top: 100px; */
 }
