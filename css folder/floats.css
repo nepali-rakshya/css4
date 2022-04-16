@@ -1,0 +1,41 @@
+/* 
+SOME WONDERS OF FLOATS
+
+1. Float gives up its position and floats, it abandons its 
+original space in the page, but when margin is used it shows the
+involvement of the space.
+
+2. Though position: relative doesn't abandon its original space
+it doesn't affect any content or elements below or above it, but 
+keeps a vacant space.
+
+3. Float desipte of it floating, when used margin it takes the 
+element or content below it.
+
+4. position: absolute, literally abandons everything. Space, element
+and content.
+
+*/
+
+body {
+  border: 5px solid silver;
+}
+
+.container1 {
+  border: 2px solid red;
+  /* float: left; */
+  position: relative;
+  bottom: 0px;
+}
+
+.container2 {
+  border: 10px solid blue;
+}
+
+.container3 {
+  border: 10px solid green;
+  position: absolute;
+  top: 300px;
+  /* float: left;
+  margin-top: 300px; */
+}
