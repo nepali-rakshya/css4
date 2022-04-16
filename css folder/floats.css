@@ -22,20 +22,30 @@ body {
 }
 
 .container1 {
-  border: 2px solid red;
-  /* float: left; */
-  position: relative;
-  bottom: 0px;
+  border: 10px solid red;
 }
 
 .container2 {
   border: 10px solid blue;
+  /* position: absolute;
+  top: 0px; */
+
+  /* position: relative;
+  top: 500px; */
+
+  /* float: right;
+  margin-top: 500px; */
 }
 
 .container3 {
   border: 10px solid green;
-  position: absolute;
-  top: 300px;
-  /* float: left;
-  margin-top: 300px; */
+}
+
+/* .here {
+  position: relative;
+} */
+
+img {
+  float: left;
+  margin-right: 10px;
 }
