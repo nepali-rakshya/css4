@@ -26,6 +26,9 @@ absolute would obey it and move accordingly.
 5. ------- The 0 in relative means its original position, whereas, 0 in case
 of absolute means the starting point of the ancestral element.
 
+6. ------- The position absolute acutally takes the element out of the flow
+of the document and actually pretend as if it never existed in the document.
+
 */
 
 .container {
