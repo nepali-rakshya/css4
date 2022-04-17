@@ -3,6 +3,11 @@ z-index ---- z-axis
 position: static ---- does not work
 
 
+-------- z-index helps in changing the z-axis. 
+-------- absolute could also be used as z-index
+-------- z -index is only going to work with position
+absolute and relative, but not with static
+
 
 
 
@@ -13,10 +18,29 @@ position: static ---- does not work
 img {
   width: 100px;
   height: 100px;
+  position: absolute;
 }
 
 .banner {
   margin: 20px;
-  width: 70vw;
+  width: 80vw;
   height: 70vh;
+  border: 5px solid red;
+  position: relative;
+}
+
+.one {
+  top: 20%;
+  left: 0;
+  z-index: -2;
+}
+.two {
+  top: 5%;
+  left: 10%;
+  z-index: -1;
+}
+.three {
+  top: 0%;
+  left: 20%;
+  z-index: 0;
 }
