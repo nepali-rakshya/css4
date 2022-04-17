@@ -1,0 +1,59 @@
+/* styles */
+/* called by your view template */
+
+/* img {
+  width: 200px;
+}
+#magazine-title {
+  position: relative;
+  z-index: -1;
+  top: -3em;
+  left: 4em;
+  font: normal 2em sans-serif;
+  color: darkslategray;
+  background-color: whitesmoke;
+  border: 3px dotted darkslategray;
+
+  width: 140px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  float: none;
+} */
+
+div {
+  width: 20vw;
+  height: 20vh;
+}
+
+.blue {
+  position: relative;
+  z-index: 2;
+  top: 3em;
+  background-color: blue;
+}
+
+.violet {
+  position: relative;
+  z-index: 4;
+  background-color: violet;
+}
+
+.purple {
+  position: relative;
+  z-index: 1;
+  background-color: purple;
+}
+
+.green {
+  position: relative;
+  z-index: 3;
+  background-color: green;
+  top: -1em;
+}
