@@ -7,10 +7,11 @@ position: static ---- does not work
 -------- absolute could also be used as z-index
 -------- z -index is only going to work with position
 absolute and relative, but not with static
-
-
-
-
+-------- z -index only fights with its siblings for 
+heirarchy, but not with the nested HTML elemenst. The
+elements which are nested under other elements would 
+always be of least prority despite of them having the 
+hightest z-index.
 
 
 */
