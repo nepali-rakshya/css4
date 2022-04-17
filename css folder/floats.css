@@ -32,9 +32,9 @@ body {
 
   /* position: relative;
   top: 500px; */
-
-  /* float: right;
-  margin-top: 500px; */
+  width: 10vw;
+  float: right;
+  /* margin-top: 500px; */
 }
 
 .container3 {
