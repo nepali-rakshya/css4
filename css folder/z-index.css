@@ -1,0 +1,22 @@
+/* 
+z-index ---- z-axis
+position: static ---- does not work
+
+
+
+
+
+
+
+*/
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.banner {
+  margin: 20px;
+  width: 70vw;
+  height: 70vh;
+}
