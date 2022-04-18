@@ -1,0 +1,41 @@
+h1 {
+  text-transform: uppercase;
+  color: seagreen;
+  width: 30%;
+  background: burlywood;
+  text-align: center;
+  margin: 100px auto;
+  position: relative;
+}
+
+h1::before {
+  content: "";
+  border: 2px solid burlywood;
+  width: 115%;
+  height: 197%;
+  position: absolute;
+  top: -17px;
+  left: -21.1px;
+  box-sizing: border-box;
+  z-index: -2;
+  transition: all 0.5s linear;
+}
+
+h1::after {
+  content: "";
+  background: rgba(46, 139, 86, 0.788);
+  width: 110%;
+  height: 152%;
+  position: absolute;
+  top: -9px;
+  left: -14px;
+  box-sizing: border-box;
+  z-index: -1;
+  transition: all 0.5s linear;
+}
+
+h1:hover::before,
+h1:hover::after {
+  top: 0;
+  left: 0;
+}
