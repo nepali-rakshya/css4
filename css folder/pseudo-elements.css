@@ -34,16 +34,21 @@ p::after {
 div {
   width: 30vw;
   margin: 100px auto;
-  border: 2px solid red;
-  box-sizing: border-box;
+  position: relative;
 }
 
 img {
   width: 100%;
-  /* display: block; */
+  display: block;
 }
-/* 
+
 div::before {
   content: "";
   border: 2px solid grey;
-} */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -40px;
+  left: -40px;
+}
