@@ -8,11 +8,13 @@ position: static ---- does not work
 -------- z -index is only going to work with position
 absolute and relative, but not with static
 -------- z -index only fights with its siblings for 
-heirarchy, but not with the nested HTML elemenst. The
+heirarchy, but not with the nested HTML elements. The
 elements which are nested under other elements would 
 always be of least prority despite of them having the 
 hightest z-index.
-
+-------- And the most IMPORTANT thing to remember is that
+the z-index of parent element also applies to its child
+element!!!!!!!!!!!!!
 
 */
 
