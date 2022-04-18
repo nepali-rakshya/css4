@@ -8,6 +8,8 @@ img --- does not work
 ------- 1. If you want to insert something in the pseudo
 you must compulsorily wirte content: "";
 
+------- 2. Image cannot have "content:" property because
+image itself is a content. 
 
 
 */
@@ -28,11 +30,20 @@ p::after {
   height: 50px;
   background-color: green;
 }
+
 div {
-  width: 50vw;
+  width: 30vw;
   margin: 100px auto;
   border: 2px solid red;
+  box-sizing: border-box;
 }
+
 img {
-  width: 100px;
+  width: 100%;
+  /* display: block; */
 }
+/* 
+div::before {
+  content: "";
+  border: 2px solid grey;
+} */
